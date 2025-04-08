@@ -187,13 +187,11 @@ a {
     margin-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    /* text-wrap: balance; */
-    /* background-color: blue; */
+    margin-bottom: 20px;
     justify-content: space-evenly;
 }
 
 .video-playing {
-    padding-top: 25px;
     margin-bottom: 0px;
     overflow: hidden;
     width: 100%;
@@ -251,6 +249,18 @@ a {
 
 }
 
+.presentation-doc {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 100vw;
+    height: 80vw;
+}
+
+.document {
+    width: 100%;
+    height: 100%;
+}
+
 
 @media screen and (max-width: 800px) {
     
@@ -284,5 +294,6 @@ a {
     .product-and-desc {
         width: 100%;
     }
+
     
-}
+    }
