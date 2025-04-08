@@ -115,7 +115,6 @@ a {
     height: 120px;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
-    /* background-color: aqua; */
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 4%;
@@ -161,13 +160,6 @@ a {
 }
 
 .product-item {
-    /* display: flex;
-    height: 400px;
-    width: 400px;
-    border: 1px black solid;
-    background-color: rgb(221, 124, 124);
-    object-fit: cover; */
-   
     display: flex;
     width: 100%;
     height: 100%;
@@ -257,7 +249,7 @@ a {
 }
 
 .document {
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 
