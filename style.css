@@ -242,14 +242,18 @@ a {
 }
 
 .presentation-doc {
+    display: flex;
+    flex-direction: row;
     padding-top: 20px;
     width: 100%;
     max-width: 100vw;
     height: 80vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .document {
-    width: 80%;
+    width: 75%;
     height: 100%;
 }
 
