@@ -13,16 +13,13 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
     overflow: hiddden;
-    /* background-color: rgba(255, 255, 255, 0.95); */
     z-index: 2;
 }
-
-
 
 .title {
     text-align: center;
     font-family: Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .title:hover {
@@ -222,7 +219,7 @@ a {
     width: 50%;
     height: 100%;
     overflow: hidden;
-    /* background-color: #629c0c; */
+    border-right: 1px black solid;
 }
 
 .desc {
@@ -231,7 +228,6 @@ a {
     text-align: center;
     line-height: 40px;
     border-top: 1px black solid;
-    border-bottom: 1px black solid;
     color: black;
 }
 
@@ -245,12 +241,12 @@ a {
 }
 
 .shipping {
+    border-top: 1px black solid;
     padding-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-align: center;
     padding-bottom: 10px;
 
 }
@@ -288,6 +284,5 @@ a {
     .product-and-desc {
         width: 100%;
     }
-
     
-    }
+}
